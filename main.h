@@ -45,4 +45,7 @@ int _puts(char *s);
 int print_s(va_list list, flags_types *f);
 int print_c(va_list list, flags_types *f);
 
+/* print_pcnt prototype*/
+int print_pcnt(va_list list, flags_types *f);
+
 #endif

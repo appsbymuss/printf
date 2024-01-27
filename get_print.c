@@ -11,7 +11,7 @@ int printt(va_list list, flags_types *f);
 
 int (*get_print(char s))(va_list, flags_types *)
 {
-	printhand func_ar[] = {{'s', print_s}, {'c', print_c}};
+	printhand func_ar[] = {{'s', print_s}, {'c', print_c}, {'%', print_pcnt}};
 
 	int fgs = 14;
 
