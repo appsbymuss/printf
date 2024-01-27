@@ -45,7 +45,7 @@ int _printf(const char *format, ...)
 			cnt += _putchar(*pp);
 		}
 	}
-	/* Phase includes Putchar */
+
 	_putchar((0 - 1));
 	va_end(args);
 
