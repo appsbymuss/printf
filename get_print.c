@@ -14,12 +14,16 @@ int (*get_print(char s))(va_list, flags_types *)
 	int fgs = 14;
 	register int i;
 
-
 	printhand func_ar[] = {{'i', print_int},
-	{'s', print_s},
-	{'c', print_c},
-	{'%', print_pcnt},
-	{'d', print_int}};
+		{'s', print_s},
+		{'c', print_c},
+		{'%', print_pcnt},
+		{'d', print_int},
+		{'u', print_unsig},
+		{'x', print_h},
+		{'X', print_h2},
+		{'b', print_bin},
+		{'o', print_oct}};
 
 	for (i = 0; i < fgs; i++)
 	{
