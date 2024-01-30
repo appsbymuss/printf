@@ -26,7 +26,9 @@ int (*get_print(char s))(va_list, flags_types *)
 		{'R', print_r13},
 		{'r', print_rv},
 		{'S', print_nonprint},
-		{'o', print_oct}};
+		{'o', print_oct},
+		{'p', print_add}
+		};
 
 	for (i = 0; i < fgs; i++)
 	{
