@@ -73,4 +73,7 @@ int print_add(va_list list, flags_types *f);
 int print_s(va_list list, flags_types *f);
 int print_c(va_list list, flags_types *f);
 
+/* print_pcnt prototype*/
+int print_pcnt(va_list list, flags_types *f);
+
 #endif
